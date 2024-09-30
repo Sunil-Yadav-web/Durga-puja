@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+.salsa-regular {
+    font-family: "Salsa", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.debug {
+    border: 2px solid green;
+}
+audio::-webkit-media-controls-panel{
+    background: #ff7300;
+}
+.gradiant {
+    background-image: linear-gradient(to right, #D4B511, #FD0B1A);
+}
+
+.container {
+    max-width: 1240px;margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.posit-rel{position: relative;
+    background-image:url("./image/jhalar.png"); 
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    background-position: top;
+    padding-block: 12px;
+
+}
+.posit-abs{
+    width: 100%;
+}
+.left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 60px;
+}
+.posit-rel>img{
+   width: 68%;
+   
+}
+.left>h2 {
+   
+    font-size: 2.75rem;
+    line-height: 60px;
+}
+.sound{
+    width:75%;
+    height: 44px;
+    padding-right: 30px;
+}
+.linebox{
+    width: 100%; 
+    margin-inline: auto;
+    justify-content: space-between;
+    padding-block:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 60px;
+}
+.line{
+    width: 48%;
+    height: 1px;
+    background-color: #Fff;
+    margin-inline: 8px;
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-inline: 2px;
+}
+.padd{
+    padding: 20px;
+}
+.w-tri{
+    width: 100%;
+    text-align: start;
+    overflow: hidden;
+
+}
+.w-tri img{
+    width: 597px;
+    height: 500px;
+}
+.girls{
+    width: 100%;
+    text-align: center;
+
+}
+.girls img{ 
+    width: 400px;
+    border-radius: 40px;
+    height: 450px;
+}
+.quote{
+    
+    text-align: center;
+    margin: 0;
+    font-family: "Style Script", cursive;
+    font-size: 60px;
+}
+.mantra{
+    max-width: 492px;
+    min-height: 400px;
+    padding: 36px 60px;
+    background-color: #Fff;
+    border-radius: 35px;
+}
+.flower img{
+    max-width: 90%;}
+.padd-block{
+    padding-block: 10px;
+}
+.flex-centr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap: 20px;
+}
+.lin-hight{
+    line-height: 2.25rem;
+    margin: 0;
+    font-size: 32px;
+}
+.foot-font {
+    font-size: 32px;
+}
+.flower {
+    overflow: hidden;
+    height: 565px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paad-left{
+    padding-left: 90px;
+}
+.card-postion{
+    width: 84%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    background-image: url(./image/card.jpg);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-block: 30px;
+}
+.card-postion>img{
+    border-radius: 20px;
+    width: 75%;
+    max-height: 500px;
+}
+.durga-p{
+    position: absolute;
+    top: 0;
+
+}
+.diya{
+    width: 100px;
+}
+.foot-font h2{margin: 0;
+   
+
+}
+.font-d{
+    margin: 0;
+    font-family: "Style Script", cursive;
+}
+.foot{
+    width: 82%;
+    margin: auto;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.text-white{
+    color: #Fff;
+}
+
+@media (max-width: 942px) {
+
+.posit-rel{
+    background-image: none;
+}     
+        
+}
+
+@media(max-width:1008px){
+.left>h2{
+    font-size: 1.95rem;
+    line-height: 42px;
+}
+.girls img {
+    width: 370px;
+    border-radius: 24px;
+    height: 435px;
+}
+.w-tri img {
+    width: 575px;
+    height: 475px;
+}
+.mantra {
+    max-width: 395px;
+}
+.quote{
+    font-size: 52px;
+}
+.foot-font h2{
+    font-size: 34px;
+}
+.foot-font h2 {
+    font-size: 22px;
+}
+}
+@media(max-width:910px){
+    .girls img {
+        width: 350px;
+        border-radius: 24px;
+        height: 395px;
+    }
+    .w-tri img {
+        width: 525px;
+        height: 425px;
+    }
+    .mantra {
+        max-width: 347px;
+        padding: 26px 36px;
+
+    }
+
+}
+@media(max-width:781px){
+    .left>h2{
+        font-size: 1.25rem;
+        line-height: 36px;
+    }
+    .posit-rel>img {
+        width: 70%;
+        padding-top: 20px;
+    }
+    .sound{
+        width: 90%;
+        height: 38px;
+    }
+    .quote{
+        font-size: 1.25rem;
+    }
+    .lin-hight{
+        font-size: 1.25rem;  
+    }
+    .mantra {
+        max-width: 297px;
+        padding: 22px 30px;
+        border-radius: 20px;
+    }
+
+
+    }
+    @media(max-width:666px){
+.flex{
+    flex-direction: column;
+}
+.left{
+    align-items: center;
+    padding:0;
+}
+.sound{
+    width:282px;
+}
+.w-tri {
+    text-align: center;
+}
+.girls img {
+    width: 65%;
+}
+.w-tri img {
+    width: 80%;
+    margin-bottom: 12px;
+    padding-left: 40px;
+    height: 384px;
+}
+.quote{
+    font-size: 1.75rem;
+}
+.paad-left {
+    padding-left: 0px;
+}
+.flower {
+    height: 520px;
+}
+.card-postion{
+    height: 450px;
+}
+.flex-row{
+    flex-direction: row;
+}
+.foot {
+    width: 66%;
+    }
+}
+@media(min-width:400px) and (max-width:666px){
+.sound{
+    width: 285px;
+    margin-left: 30px;
+}   
+.girls img {
+    width: 58%;
+    margin-bottom: 20px;
+}
+.mantra {
+    max-width: 58%;
+    padding: 22px 30px;
+    border-radius: 24px;
+}
+.flower {
+    height: 500px;
+}
+.card-postion {
+    height: 285px;
+    width: 70%;
+}
+.card-postion>img{
+    width: 300px;
+}
+.flower img {
+    max-width: 100%;
+}
+}
+@media(min-width:666px) and (max-width:910px){
+    .girls img {
+        width: 325px;
+        height:390px;
+        padding: 10px;
+    }
+    .w-tri img {
+        width: 385px;
+        height: 380px;
+    }
+    .flower img {
+        max-width: 100%;
+    }
+}
+@media(max-width:400px){
+    .sound {
+        width: 245px;
+        height: 32px;
+    }
+    .w-tri img {
+        height: 288px;
+        padding-left: 28px;
+    }
+    .linebox{
+        padding-block: 10px;
+    }
+    .girls img{
+        height: 316px;
+        border-radius: 16px;
+    }
+    .quote {
+        font-size: 1.05rem;
+        width: 70%;
+        margin: auto;
+        padding-block: 10px;
+    }
+    .lin-hight {
+        font-size: 1.05rem;
+        line-height: 1.75rem;
+    }
+    .mantra {
+        max-width: 250px;
+        padding: 16px 20px;
+        border-radius: 20px;
+        min-height: 320px;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .flower {
+        height: 290px;
+    }
+    .card-postion{
+        width: 250px;
+        border-radius: 20px;
+        height: 260px;
+        margin-top: 20px;
+
+    }
+    .flex-row{
+        flex-direction: row;
+        margin-bottom: -14px;
+    }
+    .foot-font>h2{
+        font-size: 1rem;
+    }
+    .foot{
+        padding-bottom: 40px;
+        width: 66%;
+    }
+}
